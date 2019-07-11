@@ -28,25 +28,18 @@ class ViewController: UIViewController {
             displayLabel.text = String(newValue)
         }
     }
+    private var calculator = CalculatorLogic()
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         
         //What should happen when a non-number button is pressed
         isFinishedTypingNumber = true
         
+        calculator.setNumber(displayValue)
+        
         if let calcMethod = sender.currentTitle {
-            switch calcMethod {
-            case "AC":
-                displayLabel.text = "0"
-                break
-            case "+/-":
-                displayValue *= -1
-                break
-            case "%":
-                displayValue /= 100.0
-                break
-            default:
-                break
+            if let result = calculator.calculate(symbol: calcMethod) {
+                displayValue = result
             }
         }
 
