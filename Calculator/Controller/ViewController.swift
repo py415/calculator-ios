@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     
     @IBAction func numButtonPressed(_ sender: UIButton) {
         
-        guard let currentDisplayString = displayLabel.text else { fatalError() }
+        guard let currentDisplayString = displayLabel.text else { fatalError("Error. Unknown display value.") }
         if currentDisplayString.contains(".") { return }
         
         //What should happen when a number is entered into the keypad
