@@ -44,7 +44,6 @@ class ViewController: UIViewController {
         }
 
     }
-
     
     @IBAction func numButtonPressed(_ sender: UIButton) {
         
@@ -72,4 +71,3 @@ class ViewController: UIViewController {
     }
 
 }
-
