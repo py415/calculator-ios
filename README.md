@@ -14,13 +14,16 @@ Calculator is an app that performs basic mathematic calculations.
 ## Product Spec
 ### User Stories
 
-- [X] User shall be able to calculate basic arithmetic mathematic problems.
+- [X] User shall be able to calculate basic arithmetic mathematic problems (+, -, *, /).
+- [X] User shall be able to clear the calculator screen.
+- [X] User shall be able to change the number on the screen to plus or negative.
+- [X] User shall be able to get the percentage of the number on display.
 
 ## App Walkthrough
 
 Here's a GIF of how the app works:
 
-<img src="ADD_GIF_LINK" width=250><br>
+<img src="https://i.imgur.com/Ni7KEmC.gif" width=250><br>
 
 ## Credits
 
