@@ -25,7 +25,14 @@ class ViewController: UIViewController {
         }
         
         set {
-            displayLabel.text = String(newValue)
+            let isInt = floor(newValue) == newValue
+            
+            if isInt {
+                // Result is an integer
+                displayLabel.text = String(format: "%.0f", newValue)
+            } else {
+                displayLabel.text = String(format: "%.2f", newValue)
+            }
         }
     }
     private var calculator = CalculatorLogic()
