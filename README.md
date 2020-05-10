@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Overview](#Overview)
-2. [Product Spec](#Product-Spec)
+2. [Product Specs](#Product-Specs)
 3. [App Walkthrough](#App-Walkthrough)
 4. [Credits](#Credits)
 
@@ -11,7 +11,7 @@
 
 Calculator is an app that performs basic mathematic calculations.
 
-## Product Spec
+## Product Specs
 ### User Stories
 
 - [X] User shall be able to calculate basic arithmetic mathematic problems (+, -, *, /).
@@ -23,8 +23,8 @@ Calculator is an app that performs basic mathematic calculations.
 
 Here's a GIF of how the app works:
 
-<img src="https://i.imgur.com/Ni7KEmC.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/35745973/81492828-f0e78d80-924f-11ea-9494-929ec7778a9d.gif" width=250><br>
 
 ## Credits
 
->This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+>This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
