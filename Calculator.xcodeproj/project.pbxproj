@@ -48,9 +48,9 @@
 		7241507C22D552880073A902 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ADB196242146629E00C5317F /* Main.storyboard */,
 				ADB19627214662A000C5317F /* Assets.xcassets */,
 				ADB19629214662A000C5317F /* LaunchScreen.storyboard */,
+				ADB196242146629E00C5317F /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";

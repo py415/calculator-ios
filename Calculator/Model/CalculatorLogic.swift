@@ -10,6 +10,7 @@ import Foundation
 
 struct CalculatorLogic {
     
+    // MARK: - Properties
     private var number: Double?
     private var intermediateCalculation: (n1: Double, calcMethod: String)?
     
@@ -39,6 +40,8 @@ struct CalculatorLogic {
         return nil
         
     }
+    
+    // MARK: - Private Function Section
     
     private func performTwoNumCalculation(n2: Double) -> Double? {
         

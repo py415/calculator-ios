@@ -10,10 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // Outlets
+    // MARK: - Outlets
     @IBOutlet weak var displayLabel: UILabel!
     
-    // Properties
+    // MARK: - Properties
+    private var calculator = CalculatorLogic()
     private var isFinishedTypingNumber: Bool = true
     private var displayValue: Double {
         get {
@@ -35,7 +36,8 @@ class ViewController: UIViewController {
             }
         }
     }
-    private var calculator = CalculatorLogic()
+
+    // MARK: - IBAction Section
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         
