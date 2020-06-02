@@ -23,8 +23,8 @@ Calculator is an app that performs basic mathematic calculations.
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/81492828-f0e78d80-924f-11ea-9494-929ec7778a9d.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/35745973/81492828-f0e78d80-924f-11ea-9494-929ec7778a9d.gif" width=250>
 
 ## Credits
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+>This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/).
